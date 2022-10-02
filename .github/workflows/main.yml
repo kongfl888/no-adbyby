@@ -8,8 +8,6 @@ on:
       - master
     paths:
       - '.github/workflows/main.yml'
-  schedule:
-    - cron: '30 2 * * 2,4,6'
 jobs:
   create:
 
